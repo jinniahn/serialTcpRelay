@@ -1,0 +1,30 @@
+{
+    "name": "serial-tcp-relay",
+    "version": "1.0.0",
+    "description": "this is for relaying data from serial device with tcp client",
+    "main": "index.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/jinniahn/serialTcpRelay.git"
+    },
+    "keywords": [
+	"development",
+	"serial",
+	"tcp",
+	"terminal"
+    ],
+    "bin": {
+	"serialTcpRelay": "./bin/serialTcpRelay"
+    },
+    "author": "jinsub ahn <jinniahn@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+	"minimist": "^1.2.0",
+	"serialport": "^1.7.4",
+	"underscore": "^1.8.3",
+	"underscore.string": "^3.2.2"
+    }
+}
